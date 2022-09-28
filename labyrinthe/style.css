@@ -1,0 +1,17 @@
+#labyrinthe{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    /* background-image: url("dinosor.png"); */
+    border-radius: 15px;
+}
+
+.case {
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    border: solid greenyellow;
+    border-radius: 5px;
+    color: white;
+}

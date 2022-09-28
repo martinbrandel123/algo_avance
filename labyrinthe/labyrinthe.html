@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <input type="number" id="labyrinthe-taille" placeholder="Taille de tableau 3 à 25" value="5">
+            <input type="number" id="labyrinthe-niveau" placeholder="Niveau 0 à 2" value="2">
+        </div>
+        <button type="button" id="getData">Choisis ton labyrinthe !</button>
+        <button type="button" id="resolve">Resoudre le labyrinthe</button>
+        <button type="button" id="iterate" style="background-color: blue; color: white;">Lancer un tour de recherche</button>
+    </div>
+    <br><br>
+
+    <div id="labyrinthe">
+
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="labyrinthes.js"></script>
+    <script src="laby1.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="laby.js"></script> -->
+
+</body>
+</html>
